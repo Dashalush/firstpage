@@ -1,0 +1,434 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    height: 595px;
+    background-color: #87509c;
+}
+.navbar{
+    display: flex;
+    margin-right: 500px;
+}
+.doc{
+    list-style-type: none;
+    float: right;
+    margin-top: 50px;
+}
+.doc a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    list-style-type: none;
+    padding: 15px 20px;
+    
+}
+.logo{
+margin-top: 50px;
+}
+.text{
+    color: white;
+    font-size: 42px;
+margin: 80px 0 0;
+text-align: center;
+}
+.information_btn{
+    display: block;
+    margin: 0 auto;
+    width: 293px;
+    height: 70px;
+    background-color: #eb7d4b;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f7f3ea;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.information_btn:hover{
+    color: white;
+}
+.services{
+    height: 795px;
+    background-color: #17c2a4;
+}
+.services .services_header{
+    color: #f7f3ea;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 119px;
+}
+.box{
+    width: 85px;
+    height: 4px;
+    background-color: #14a58c;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.services .services_subheader{
+    color: #f7f3ea;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+}
+.services_provaide{
+    margin-top: 80px;
+}
+.BRAWL{
+text-align: center;
+color: #f7f3ea;
+font-size: 30px;
+margin-top: 50px;
+}
+.services_text{
+    color: white;
+   text-align: center;
+}
+.services_img{
+    display: block;
+    margin: 0 auto;
+}
+.meet{
+    height: 915px;
+    background-color: #e7f1f8;
+}
+.meet_header{
+    text-align: center;
+    padding-top: 119px;
+    color: rgb(57, 57, 80);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.box1{
+    width: 85px;
+    height: 4px;
+    background-color: #c8d9e5;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.meet_subheader{
+    color: #535e75;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+    margin-top:  20px;
+}
+.team_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.meet_name{
+    text-align: center;
+    color: #535e75;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.team{
+    color:rgb(82, 149, 248);
+    text-align: center;
+}
+.text_us{
+    text-align: center;
+    color: #535e53;
+    font-size: 20px;
+}
+.got_header{
+    text-align: center;
+    padding-top: 119px;
+    color: rgb(57, 57, 80);
+    font-size: 55px;
+    font-weight: 700; 
+}
+.box2{
+    width: 85px;
+    height: 4px;
+    background-color: #c8d9e5;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.got_subheader{
+    color: #535e75;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+    margin-top:  20px;
+}
+.ball{
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 15px solid rgb(42, 128, 179);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top:50px;
+    font-size: 50px;
+    color: #535e53;
+    margin-top: 50px;
+}
+.ball2{
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 15px solid rgb(179, 42, 106);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top:50px;
+    font-size: 50px;
+    color: #535e53;
+    margin-top: 50px;
+}
+.ball3{
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 15px solid rgb(11, 226, 155);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top:50px;
+    font-size: 50px;
+    color: #535e53;
+    margin-top: 50px;
+}
+.ball4{
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 15px solid rgb(165, 97, 19);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top:50px;
+    font-size: 50px;
+    color: #535e53;
+    margin-top: 50px;   
+}
+.get_text{
+    color:rgb(21, 67, 97);
+    text-align: center; 
+    margin-top: 30px;
+    font-weight: 700; 
+    font-size: 30px;
+}
+.our{
+    height: 1400px;
+    background-color: #fd9;
+}
+.our_header{
+    text-align: center;
+    padding-top: 119px;
+    color: rgb(19, 19, 48);
+    font-size: 55px;
+    font-weight: 700;    
+}
+.box3{
+    width: 85px;
+    height: 4px;
+    background-color: #393939;
+    margin: 0 auto;
+    margin-top: 23px;  
+}
+.our_subheader{
+    color: #381f1f;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+    margin-top:  20px;
+}
+.doc1{
+    list-style-type: none;
+    float: right;
+    margin-top: 50px;  
+}
+.doc1  a {
+    text-decoration: none;
+    display: flex;
+    color: rgb(27, 23, 23);
+    list-style-type: none;
+    padding: 15px 20px;
+    font-size: 25px;
+    text-align: center;
+      
+}
+.block{
+    margin: 0 auto;
+    display:flex;
+}
+.anchor_bar{
+    display: flex;
+    text-align: center;
+    margin-left: 400px;
+}
+.doc1 .active:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+.team_img1{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;  
+    margin-top: 30px;  
+}
+.comp{
+    text-align: center;
+    color: #1c2331;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.information_btn1{
+    display: block;
+    margin: 0 auto;
+    width: 293px;
+    height: 70px;
+    background-color: #0ffcb5;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f7f3ea;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.information_btn1:hover{
+    color: white;
+}
+.what{
+    background-color: #d74680 ;
+    height: 900px;
+}
+.what_header{
+    text-align: center;
+    padding-top: 119px;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 700;
+}
+.box4{
+    width: 85px;
+    height: 4px;
+    background-color: #918b8b;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.what_subheader{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+    margin-top:  20px;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+   
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: #535e53;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top:50px;
+    font-size: 50px;
+    color: #535e53;
+    margin-top: 50px;
+}
+
+
+.text_what{
+    margin-top: 30px;
+    text-align: justify;
+    color: white;
+    font-size: 24px;
+}
+span{
+    color: yellow;
+}
+.get{
+    height: 830px;
+    background-color: #3c5499;
+}
+.get_header{
+    text-align: center;
+    padding-top: 119px;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.get_subheader{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+    margin-top:  20px;
+}
+
+.send_btn:hover{
+    color: white;
+}
+.vvod{
+
+    padding: 15px;
+    background: #273a71;
+    height: 51px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width:850px;
+    margin: 0 auto;
+
+
+}
+.vvod1{
+    display: block;
+    margin: 0 auto ;
+    background: #273a71;
+    height: 200px;
+   margin-top: 50px;
+   width: 850px;
+}
+.send_btn{
+    display: block;
+    margin: 0 auto;
+    width: 293px;
+    height: 70px;
+    background-color: #30bae7;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f7f3ea;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.all{
+    height: 100px;
+    background-color: #344b8e;
+}
+.message{
+    list-style: none;
+    margin:0 auto;
+    padding: 0;
+    padding-top: 30px;
+}
+.message li{
+    float: left;
+}
+.message .message_link{
+    text-decoration: none;
+    color: rgb(253, 252, 252);
+    padding: 15px 20px;
+    font-size: 25px;
+    text-align: center;
+   margin-left: 50px;
+}
+.message_link:hover {
+   color:#30bae7;
+ }
